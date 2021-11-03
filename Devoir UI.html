@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devoir UI</title>
+
+    <style>
+
+        body{
+            background: url(arriere\ 1.png) no-repeat;
+            background-size: cover;
+        }
+
+	
+        .shadowbox{
+            display: inline-block;
+            
+            color: #000000; 
+            padding: 5px;
+            width: 70px;
+            height: 50px;
+            margin: 10px;
+            border: 3px solid black;
+            background-color: white;
+        }
+        
+        .lightbox{
+        display: flex;
+        flex-direction : row;
+        }
+
+        p{
+        margin : 5px 5px;
+        }
+    
+    .downbox1{
+        display: inline-block;
+
+        color: #000000;
+        padding: 5px;
+        width: 70px;
+        height: 100px;
+        margin: 10px;
+        border: 3px solid black;
+        background-color: white;
+    }
+
+    .downbox2{
+        display: inline-block;
+
+        color: #000000;
+        padding: 5px;
+        width: 500px;
+        height: 40px;
+        margin: 10px;
+        border: 3px solid black;
+        background-color: white;
+    }
+
+    .boxlightbox{
+        display: inline-block;
+
+        color: #000000;
+        padding: 5px;
+        width: 180px;
+        height: 60px;
+        margin: 10px;
+        border: 3px solid black;
+        background-color: white;
+    }
+
+    .lesdownbox{
+        display: flex;
+        align-items: flex-end;
+    }
+
+
+    
+    body{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .lesupbox{
+        display: flex;
+    }
+
+    .downbox2{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .images{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .imagesheros{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+   .etatheros{
+        display: inline-block;
+
+        color: #000000;
+        padding: 5px;
+        width: 180px;
+        height: 120px;
+        margin: 10px;
+        border: 3px solid black;
+        background-color: white;
+    }
+
+    a:hover{
+        background-color: red;
+
+    }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="lesupbox">
+        <div class="shadowbox">
+            <p>Première</p>
+            <p>Mission</p>
+        </div>
+        <div class="boxlightbox">
+            <p>Votre mission est de neutraliser les spectres qui tentent de vous tuer</p>
+        </div>
+    </div>
+    <div class="images">
+        <img src="Troismonstres.png" width="400" height="200">
+        <div class="imagesheros">
+            <img src="penguin_16x16.jpg" width="50" height="50">
+            <img src="penguin_pixeled.png" width="50" height="100">
+            <img src="Body2.png" width="50" height="100">
+            <img src="kraken_anim.gif" width="50" height="100">
+        </div>
+    </div>
+
+    <div class="lesdownbox">
+        <div class="downbox1">
+            <p>
+                <a href="#">Attaque</a>
+            </p>
+            <p>
+                <a href="#">Défence</a>
+            </p>
+            <p>
+                <a href="#">Magie</a>
+            </p>
+            <p>
+                <a href="#">Item</a>
+            </p>
+        </div>
+	    <div class="downbox2">
+            <p>Jack</p><p>15 PV</p><p>100 Mana</p>
+            <p>Boris</p><p>9 PV</p><p>80 Mana</p>
+            <p>Francky</p><p>0 PV</p><p>150 Mana</p>
+            <p>Victor</p><p>11 PV</p><p>65 Mana</p>
+        </div>
+        <div class="etatheros">
+            <p>Etat des héros :</p>
+            <p>Jack => paralysé</p>
+            <p>Boris => empoisonné</p>
+            <p>Francky => mort</p>
+            <p>Victor => possédé</p>
+        </div>
+    </div>
+
+</body>
+</html>
